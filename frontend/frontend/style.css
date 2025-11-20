@@ -141,3 +141,24 @@ h2 {
         margin-right: 10px;
     }
 }
+
+/* Estilos para Tarefas Concluídas */
+
+.task-item.completed {
+    /* Adiciona um toque visual mais forte */
+    border-left: 5px solid #28a745; /* Borda esquerda verde para sucesso */
+    opacity: 0.7; /* Suaviza um pouco o item */
+}
+
+.task-item.completed .task-content h3,
+.task-item.completed .task-content p {
+    text-decoration: line-through; /* Riscado para indicar conclusão */
+    color: #6c757d; /* Cor mais suave */
+}
+
+/* Ajuste no botão "Desfazer" para contraste */
+.task-item.completed .complete-btn {
+    background-color: #ffc107; /* Cor amarela para "Desfazer" */
+    color: #333;
+    border-color: #ffc107;
+}
