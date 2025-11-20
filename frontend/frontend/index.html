@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas Full Stack</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header class="container">
+        <h1>Minhas Tarefas</h1>
+    </header>
+    <main class="container">
+        <section class="task-form">
+            <h2>Adicionar Nova Tarefa</h2>
+            <form id="task-form">
+                <input type="text" id="task-title" placeholder="Título da Tarefa" required>
+                <textarea id="task-description" placeholder="Descrição (Opcional)"></textarea>
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </section>
+        <section class="task-list-section">
+            <h2>Lista de Tarefas</h2>
+            <div id="task-list">
+                </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
