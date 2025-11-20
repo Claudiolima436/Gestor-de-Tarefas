@@ -1,6 +1,6 @@
-# ✍️ Gestor de Tarefas Full Stack (To-Do List)
+# ✍️ Gestor de Tarefas Full Stack (Lista de Tarefas)
 
-Aplicação Full Stack de Gerenciamento de Tarefas desenvolvida para demonstrar o domínio do ciclo **CRUD (Create, Read, Update, Delete)**. O projeto integra Front-end (HTML/CSS/JS), Back-end (Node/Express) e Banco de Dados (SQLite), comprovando a habilidade de conectar todas as camadas de uma aplicação web.
+Aplicação Full Stack de Gerenciamento de Tarefas desenvolvida para demonstrar o domínio do ciclo **CRUD** (**Create, Read, Update, Delete**). O projeto integra **Front-end** (HTML/CSS/JS), **Back-end** (Node/Express) e **Banco de Dados** (SQLite), comprovando a habilidade de conectar todas as camadas de uma aplicação web.
 
 ---
 
@@ -8,10 +8,12 @@ Aplicação Full Stack de Gerenciamento de Tarefas desenvolvida para demonstrar 
 
 O projeto foi construído utilizando as seguintes ferramentas e linguagens:
 
-* **Front-end:** HTML5, CSS3, JavaScript Puro (ES6+) e Fetch API para comunicação assíncrona.
-* **Back-end:** Node.js, Express (para a criação da API RESTful) e CORS (para permitir a comunicação entre o Front-end e o Back-end).
+* **Front-end:** HTML5, CSS3, JavaScript Puro (ES6+), e **Fetch API** para comunicação assíncrona.
+* **Back-end:** Node.js, Express (para a criação da API RESTful) e **CORS** (para comunicação entre as camadas).
 * **Banco de Dados:** SQLite3 (banco de dados leve baseado em arquivo) e o módulo `sqlite` para operações assíncronas.
 * **Versionamento:** Git e GitHub.
+
+---
 
 ---
 
@@ -27,12 +29,14 @@ Certifique-se de ter o **Node.js** (que inclui o NPM) e o **Git** instalados em 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/Claudiolima436/Gestor-de-Tarefas.git
+    git clone [https://github.com/Claudiolima436/Gestor-de-Tarefas.git](https://github.com/Claudiolima436/Gestor-de-Tarefas.git)
     ```
+
 2.  **Acesse a pasta do Back-end:**
     ```bash
     cd Gestor-de-Tarefas/backend
     ```
+
 3.  **Instale os pacotes do servidor (Express, CORS, SQLite):**
     ```bash
     npm install
